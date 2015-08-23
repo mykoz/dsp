@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> After dual booting linux, I discovered that nano was installed by default. So by convenience, as well as for the sake of a simplistic editor, I will likely use nano. Although this does not mean I will not try to learn the others.
 
 ---
 

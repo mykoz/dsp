@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> While learning python, I started with Sublime Text 3. Sublime text lets you do things like edit multiple things simultaneously, and set up a project to improve workflow. ctrl+d lets you select the word you're hovering over, and pressing ctrl+d again selects the next instance of the word. ctrl+k+u/l toggles the case of what is selected, u being upper and l being lower. As for customizing Sublime, there are themes to change how it looks and numerous plugins that offer ways to improve productivity. One such plug in is the Git plug in to be able to use Git from Sublime.
 
 ---

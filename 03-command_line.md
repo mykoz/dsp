@@ -15,10 +15,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > >
 
 ---
-- mkdir -p - creates directory as parent directory, lets you make an entire path even if directories didn't                     > previously exist
+- mkdir -p - creates directory as parent directory, lets you make an entire path even if directories didn't                     previously exist
 - cd - change directory, typing this alone sends you directly to home directory
 - ls -lR - lists contents in long form recursively 
-- pushd - "saves" where you are and takes you to specified directory, after pushing to new directory, pushd alone will switch   > back and forth
+- pushd - "saves" where you are and takes you to specified directory, after pushing to new directory, pushd alone will switch   back and forth
 - popd - "pops" you back to where the save point created by pushd was
 - rmdir -p - similarly (to mkdir -p) will remove an entire path of directories, as long as there are no files
 - touch - UNIX version of new-item

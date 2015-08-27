@@ -15,20 +15,20 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > >
 
 ---
-mkdir -p - creates directory as parent directory, lets you make an entire path even if directories didn't                     >previously exist
-cd - change directory, typing this alone sends you directly to home directory
-ls -lR - lists contents in long form recursively 
-pushd - "saves" where you are and takes you to specified directory, after pushing to new directory, pushd alone will switch back and >forth
-popd - "pops" you back to where the save point created by pushd was
-rmdir -p - similarly (to mkdir -p) will remove an entire path of directories, as long as there are no files
-touch - UNIX version of new-item
-man - brings up manual for commands, UNIX version of HELP
-cp -r - recursive copy, copies everything within the directory
-apropos - finds all relevant commands containing the word, incase you can't remember the name of a command
-cat > file - reads whatever you type into terminal and creates new file (as text?)
-$>$ - writes to the right
-$>>$ - appends to the right
-grep - finds a string within specifies files, '-i' flag ignores cases
+- mkdir -p - creates directory as parent directory, lets you make an entire path even if directories didn't                     > previously exist
+- cd - change directory, typing this alone sends you directly to home directory
+- ls -lR - lists contents in long form recursively 
+- pushd - "saves" where you are and takes you to specified directory, after pushing to new directory, pushd alone will switch   > back and forth
+- popd - "pops" you back to where the save point created by pushd was
+- rmdir -p - similarly (to mkdir -p) will remove an entire path of directories, as long as there are no files
+- touch - UNIX version of new-item
+- man - brings up manual for commands, UNIX version of HELP
+- cp -r - recursive copy, copies everything within the directory
+- apropos - finds all relevant commands containing the word, incase you can't remember the name of a command
+- cat > file - reads whatever you type into terminal and creates new file (as text?)
+- $>$ - writes to the right
+- $>>$ - appends to the right
+- grep - finds a string within specifies files, '-i' flag ignores cases
 
 
 ---

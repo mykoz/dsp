@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Lists and tuples are both a series of values. Lists are created using ```[]``` while tuples are created with ```()```. Tuples are immutable and its contents cannot be altered. It is also for the reason of being immutable tuples can be used as keys in dictionaries. This guarantees that the contents will provide exactly one hash value, avoiding unexpected errors.
+>> Lists and tuples are both a series of values. Lists are created using ```[]``` while tuples are created with ```()```. Lists can be modified (appended to, delete entries). Tuples are immutable and its contents cannot be altered. It is also for the reason of being immutable that tuples can be used as keys in dictionaries. This guarantees that the contents will provide exactly one hash value, avoiding unexpected errors.
 
 ---
 

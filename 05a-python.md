@@ -33,7 +33,13 @@ When it comes checking for membership of an element, sets are faster because the
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> lambda is an anonymous function, which is an function unbound to any identifiers. Basically defines a function on one line. Using lambda can also make your code look a bit cleaner. It's commonly used in functions that take two arguments in the form of `(function, sequence)` such as map(), reduce(), and filter(). 
+```
+things = ['c4t', 'z1t', 'p3t' ,'d0g','b2d']
+
+print sorted(things, key = lambda x: x[1])
+```
+This sorts the elements of `things` by the second character. `key=` requires a function that gives each value a proxy value to sort by. `lambda` provides this without the need to make an actual function
 
 ---
 

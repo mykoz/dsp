@@ -62,7 +62,14 @@ print [len(n) for n in stuff]
 `print filter(lambda x: len(x) > 3, stuff)` #finds all elements longer than len == 3 and makes a new list. Should be noted that in a list comprehension, an additional `if` can serve as a filter eg. `[ x+1 for x in list1 if x%2==0]`
 
 A set comprehension creates a new set by using the same syntax of a list comprehension in braces instead of brackets.
+
 ` {x**2 for x in range(10)}`
+
+a dictionary comprehension is just like a set comprension except you provide a variable for the key.
+
+` {x:x**2 for x in range(10)}`
+
+
 
 ---
 

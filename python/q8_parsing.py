@@ -5,13 +5,45 @@
 # then print the name of the team with the smallest difference in ‘for’ and ‘against’ goals.
 
 
+
 import csv
+def read_data(data):
+    f = open(data,"rb")
+    fball = csv.DictReader(f)
+    for row in fball:
+       print row
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
 
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
+#want to find the lowest goals scores - highest goals scored against
+def get_min_score_difference(data):
+    f = open(data,"rb")
+    fball = csv.DictReader(f)
+    minDiff = float("inf")
+    for row in fball:
+        goals = int(row["Goals"])
+        allowed = int(row["Goals Allowed"])
+        diff = abs(goals-allowed)
+        if diff < minDiff:
+            minDiff = diff
+            averagest_team = row["Team"]
+    print minDiff
 
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+
+
+def get_team(data):
+    f = open(data,"rb")
+    fball = csv.DictReader(f)
+    minDiff = float("inf")
+    averagest_team = None
+    for row in fball:
+        goals = int(row["Goals"])
+        allowed = int(row["Goals Allowed"])
+        diff = abs(goals-allowed)
+        if diff < minDiff:
+            minDiff = diff
+            averagest_team = row["Team"]
+    print averagest_team
+
+print read_data("football.csv")
+print get_min_score_difference("football.csv")
+print get_team("football.csv")

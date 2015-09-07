@@ -54,6 +54,9 @@ Basic example:
 stuff = [1, 2, 3, 4, 5]
 print [n*2 for n in stuff]
 ```
+`map()` applies a given function to all elements of a specified collection and returns the result.
+`filter()` filters a list by a specified attribute. 
+
 ---
 
 ###Complete the following problems by editing the files below:

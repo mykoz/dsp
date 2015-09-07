@@ -46,16 +46,23 @@ This sorts the elements of `things` by the second character. `key=` requires a f
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions are another concise way to apply a function for a collection of items.
-Syntax is [*expression* for *var* in *list*]
+>> List comprehensions are another concise way to apply a function for a collection of items. 
+Syntax is [*expression* for *var* in *list*] in between f
 
 Basic example:
 ```
-stuff = [1, 2, 3, 4, 5]
-print [n*2 for n in stuff]
+stuff = ["hi","this", "is", "a", "sentence"]
+print [len(n) for n in stuff]
 ```
-`map()` applies a given function to all elements of a specified collection and returns the result.
+`map()` applies a given function to all elements of an iterable and returns the result. it is similar to a list comprehension and can be faster in select situations.
+`print map(len(), stuff)`
+
 `filter()` filters a list by a specified attribute. 
+
+`print filter(lambda x: len(x) > 3, stuff)` #finds all elements longer than len == 3 and makes a new list. Should be noted that in a list comprehension, an additional `if` can serve as a filter eg. `[ x+1 for x in list1 if x%2==0]`
+
+A set comprehension creates a new set by using the same syntax of a list comprehension in braces instead of brackets.
+` {x**2 for x in range(10)}`
 
 ---
 

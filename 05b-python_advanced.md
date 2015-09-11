@@ -16,12 +16,20 @@ Use regular expressions to:
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> PhD: 31
+ScD: 6
+MD : 1
+MPH: 2
+BS : 1
+MS : 2
+JD : 1
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> Professors: 13
+Associate Professors:  12
+Assistant Profesors:  12
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.

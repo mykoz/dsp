@@ -9,9 +9,10 @@ from collections import OrderedDict
 
 
 #Q6  CREATE DICTIONARY
-facdict = {}
+facdict = OrderedDict()
 f = open("faculty.csv", "rb")
 faculty = csv.reader(f)
+next(faculty)
 for row in faculty:
     last =  row[0].split(' ')[-1]
     values = [[row[1], row[2], row[3]]]
@@ -28,6 +29,7 @@ pprint (facdict.items()[0:3])
 facdict = OrderedDict()
 f = open("faculty.csv", "rb")
 faculty = csv.reader(f)
+next(faculty)
 for row in sorted(faculty):
     last =  row[0].split(' ')
     nametup = (last[0],last[-1])

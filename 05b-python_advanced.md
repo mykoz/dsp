@@ -91,11 +91,13 @@ Print the first 3 key and value pairs of the dictionary:
 
 >> 
 ```
-[('Putt',
-  [[' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']]),
- ('Feng',
-  [[' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']]),
- ('Bilker', [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']])]
+[('Bellamy',
+  [[' Sc.D.',
+    'Associate Professor of Biostatistics',
+    'bellamys@mail.med.upenn.edu']]),
+ ('Bilker', [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']]),
+ ('Bryan',
+  [[' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']])]
  ```
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
@@ -113,26 +115,30 @@ Print the first 3 key and value pairs of the dictionary:
 
 >>
 ```
-[(('Yimei', 'Li'),
-  [[' Ph.D.', 'Assistant Professor of Biostatistics', 'liy3@email.chop.edu']]),
- (('Hongzhe', 'Li'),
-  [[' Ph.D', 'Professor of Biostatistics', 'hongzhe@upenn.edu']]),
- (('Justine', 'Shults'),
-  [[' Ph.D.', 'Professor of Biostatistics', 'jshults@mail.med.upenn.edu']])]
+[(('A.', 'Localio'),
+  [[' JD MA MPH MS PhD',
+    'Associate Professor of Biostatistics',
+    'rlocalio@upenn.edu']]),
+ (('Alisa', 'Stephens'),
+  [[' Ph.D.',
+    'Assistant Professor of Biostatistics',
+    'alisaste@mail.med.upenn.edu']]),
+ (('Andrea', 'Troxel'),
+  [[' ScD', 'Professor of Biostatistics', 'atroxel@mail.med.upenn.edu']])]
 ```
 
 ####Q8.  It looks like the current dictionary is sorted by first name.  Sort by last name and print the first 3 key and value pairs.  
 
 >> 
 ```
-[(('Knashawn', 'Morales'),
+[(('Matthew', 'Bryan'),
+  [[' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']]),
+ (('Warren', 'Bilker'),
+  [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']]),
+ (('Scarlett', 'Bellamy'),
   [[' Sc.D.',
     'Associate Professor of Biostatistics',
-    'knashawn@mail.med.upenn.edu']]),
- (('Yimei', 'Li'),
-  [[' Ph.D.', 'Assistant Professor of Biostatistics', 'liy3@email.chop.edu']]),
- (('Hongzhe', 'Li'),
-  [[' Ph.D', 'Professor of Biostatistics', 'hongzhe@upenn.edu']])]
+    'bellamys@mail.med.upenn.edu']])]
 ```
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)

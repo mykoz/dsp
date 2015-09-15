@@ -25,10 +25,10 @@ pprint (facdict.items()[0:3])
 
 
 #Q7 TUPLE NAME
-facdict = {}
+facdict = OrderedDict()
 f = open("faculty.csv", "rb")
 faculty = csv.reader(f)
-for row in faculty:
+for row in sorted(faculty):
     last =  row[0].split(' ')
     nametup = (last[0],last[-1])
     values = [[row[1], row[2], row[3]]]
@@ -42,11 +42,11 @@ pprint (facdict.items()[0:3])
 
 
 #Q8 REVERSE SORT
-facdict = {}
+facdict = OrderedDict()
 f = open("faculty.csv", "rb")
 faculty = csv.reader(f)
 next(faculty)
-for row in sorted(faculty):
+for row in faculty:
     last =  row[0].split(' ')
     nametup = (last[0],last[-1])
     values = [[row[1], row[2], row[3]]]

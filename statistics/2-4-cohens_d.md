@@ -20,7 +20,11 @@ def CohD(group1, group2):
 ```
 
 CohD(firsts.totalwgt_lb,others.totalwgt_lb)
+
+
 -0.088672927072602
 
 CohD(firsts.prglngth, others.prglngth)
+
+
 0.028879044654449883

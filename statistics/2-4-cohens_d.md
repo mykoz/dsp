@@ -24,7 +24,13 @@ CohD(firsts.totalwgt_lb,others.totalwgt_lb)
 
 -0.088672927072602
 
+
+with a .0887 effect size suggesting that firsts overall weigh less than others.
+
 CohD(firsts.prglngth, others.prglngth)
 
 
 0.028879044654449883
+
+
+this is a .029 effect size suggesting that firsts have longer pregnancy lengths than those after.

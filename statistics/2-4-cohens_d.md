@@ -2,19 +2,19 @@
 
 >> 
 ```
-#COHEN'S D
+
 firsts = live[live.birthord == 1] #first baby
 others = live[live.birthord != 1]
 
 def CohD(group1, group2):
-    diff = group1.mean()-group2.mean()
+
     var1 = group1.var()
     var2 = group2.var()
     n1, n2 = len(group1), len(group2)
+
     pooled_var = (n1*var1 + n2*var2)/(n1+n2)
     d = diff/math.sqrt(pooled_var)
     return d
-
 ```
 
 CohD(firsts.totalwgt_lb,others.totalwgt_lb)

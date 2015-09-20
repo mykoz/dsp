@@ -3,9 +3,19 @@
 ```
 import thinkstats2
 pmf = thinkstats2.Pmf(resp.numkdhh)
-pmf
+pmf #unbiased 
 ```
 
 Gives: `Pmf({0: 0.46617820227659301, 1: 0.21405207379301322, 2: 0.19625801386889966, 3: 0.087138558157791451, 4: 0.025644380478869556, 5: 0.010728771424833181})`
 
-
+Define the Biased PMF function:
+```
+def BiasPmf(pmf, label=''):
+    new_pmf = pmf.Copy(label=label)
+    for x, p in pmf.Items():
+        new_pmf.Mult(x, x)
+        
+    new_pmf.Normalize()
+    return new_pmf
+```
+`biased = BiasPmf( pmf, label = 'biased pmf')`

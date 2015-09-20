@@ -2,7 +2,7 @@
 
 >> 
 ```
-firsts = live[live.birthord == 1] #first baby
+firsts = live[live.birthord == 1]
 others = live[live.birthord != 1]
 
 def CohD(group1, group2):

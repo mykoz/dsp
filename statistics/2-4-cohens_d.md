@@ -2,7 +2,6 @@
 
 >> 
 ```
-
 firsts = live[live.birthord == 1] #first baby
 others = live[live.birthord != 1]
 

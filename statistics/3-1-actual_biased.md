@@ -19,3 +19,18 @@ def BiasPmf(pmf, label=''):
     return new_pmf
 ```
 `biased = BiasPmf( pmf, label = 'biased pmf')`
+
+To Display the graphs superimposed:
+
+```
+thinkplot.PrePlot(2)
+thinkplot.Pmfs([pmf, biased])
+thinkplot.Show()
+```
+UNBIASED MEAN
+
+`pmf.Mean()` = 1.0242051550438309
+
+BIASED MEAN
+
+`biased.Mean()` = 2.4036791006642821
